@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #9a9a9a;
+}
+
+header {
+    background-color: rgb(93, 49, 49);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #6c63ff;
+}
+
+.hero {
+    background-image: url('images/ayurved.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(90, 160, 255);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: rgb(104, 215, 255);
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.hero button:hover {
+    background-color: #5248c3;
+}
+
+.services {
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services ol {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.services li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.address {
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.address h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.address p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header__button {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 12px 28px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-self: stretch;
+}
+
+footer {
+    background-color: #a7a2ff;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+}
